@@ -1,0 +1,3 @@
+Codeforces Round #544 (Div. 3) -> (C. Balanced Team)
+UVA -> 10611 - The Playboy Chimp
+Light Oj -> 1088 - Points in Segments

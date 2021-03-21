@@ -1,0 +1,157 @@
+# Maximum child on Parrent?
+# N node Given..How many different shape binary tree jenarator?
+
+Unlabel:
+
+       2*n
+          C
+           n
+T(n) = --------- [catalan number(combination formula)]
+        n + 1
+  
+       10        10*9*8*7*6
+         C       ----------
+          5      5*4*3*2*1         
+T(5) = -------- = ---------- = 42
+          6          6
+________________________________________________
+  n     |  0  |  1  |  2 |  3 | 4  |  5  | 6   |
+------------------------------------------------
+  T(n)  |  1  |  1  | 2  |  5 | 14  | 42 | 132 |
+________________________________________________
+
+T(6) = 1*42 + 1*14 + 2*5 + 
+       42*1 + 14*1 + 2*5 = 132 
+T(6) = T(0)*T(5) + T(1)*T(4) + T(2)*T(3)
+       T(5)*T(0) + T(4)*T(1) + T(3)*T(2)
+      n____
+       \
+T(n) = /  T(i)*T(n-i) [catalan number(recuasive formula)]
+       ----
+       i=1
+
+
+Label:
+
+       2*n
+          C
+           n
+T(n) = --------- * n! [catalan number(combination formula)]
+        n + 1
+
+
+# N node given.how many binary tree are possible maximum height?
+                   n-1
+max height tree = 2
+
+#  Height of Binary Tree :
+   Height h Given. Minimum and Maximum node tree?
+
+Minimum node = h+1
+Maximum node = 2^(h+1) - 1
+
+  = 1 + 2 + 4 + 8 + ...+2^h
+  = 2^0 + 2^1 + 2^2 + 2^3 + ....+2^h
+here a = 1;
+     r = 2;
+   
+                                               a(r^(h+1) - 1)
+  G.P Serics = a + ar + ar^2 + ar^3 +...+ar^h = ------------- = 2^(h+1) - 1
+                                                  r - 1 
+#  Nodes of Binary Tree :
+   Nodes n Given. Minimum and Maximum height tree?
+
+  Maximum height = n - 1;
+  Minimum height = log2(n+1) - 1 [log base 2]
+
+  n = 2^(h+1) -1
+ => n+1 = 2^(h+1)
+ => 2^(h+1) = n+1
+ => h+1 = log 2 (n+1) [log base 2]
+ => h = log2(n+1) - 1 [log base 2] 
+
+if n = 15
+h = log 2 (15+1) - 1
+  = log 2 16 = 4 - 1 = 3
+
+O(logn) to O(n) 
+
+# Internal and Extranal Nodes
+ deg(0) -> Extranal Nodes
+ deg(1) and deg(2) -> Internal Nodes
+ deg(0) = deg(2) + 1 [ This formula always True Binary tree]
+ deg(1) = n - deg(0) + deg(2)
+
+# strict/ proper Binary Tree
+ strict Binary Tree is Binary tree that means every node have 2 childen/deree or 0 childen/degree not 1 childen/1 degree
+ stric Binary tree Complete Binary tree.
+ h = 2 => min node = 5 , max node =  7
+ h = 3 => min node = 7 , max node = 15
+ h = 4 => min node = 9 , max node = 31
+                 n + 2 ,          = 2*n + 1
+
+if height h given:-
+
+ minimum node => n = 2*h + 1
+ maximum node => n = 2^(h+1) - 1
+
+if n nodes are given:-
+
+ minimum height => h = log 2 (n+1) -1
+ maximum height => h = (n-1)/2
+
+ external(leaf) node = internal node + 1 (strict/ proper / complete Binary Tree)
+
+ 
+# strict m(chidld/degree) - array trees
+ *if h is given minimum and maximum node m-arry tree?
+
+minimum nodes: m*h + 1;
+maximum nodes: m^(h+1) / m-1
+
+Example: strict 3-array trees
+if h = 2
+minimum nodes = 2*3 + 1;
+maximum nodes  = 1 + 3 + 3^2 + ..
+               = 1 + m + m^2 + ..
+
+ *if n is given minimum and maximum hight m-arry tree?
+  min height h =  log m [n(m-1)+1]-1 [m base]
+  max height h = (n-1)/m
+
+ *Internal node vs External node => E = (m-1)*I + 1
+
+ *Any binary tree there are n node then n+1 NUll pointers
+
+Full : Full binary tree is maximum node in binary tree.Full binary tree is Complete Binary tree,
+Complete Binary tree: Complete Binary tree is there are no blank space any between Node.
+
+# Tree Traversals
+                  (A)
+                 /  \
+                /    \
+               (B)   (C)
+
+ * Preorder : visit(Node) ,Preorder(leftSubtree),Preorder(rightSubtree) [A,B,C]
+
+ * Inorder :  Inorder(leftSubtree) ,visit(Node) ,Inorder(rightSubtree) [B,A,C]
+
+ * Postorder : Postorder(leftSubtree),Postorder(rightSubtree),visit(Node) [B,C,A]
+ 
+ * Leavelorder : Leavel by leavel [A,B,C]
+
+                           (A)
+                          /   \
+                         /     \
+                        (B)    (C)
+                       /  \   /  \
+                      /    \ /    \
+                     (D)  (E)(F)  (G)
+
+ * Preorder : A , (B,D,E) , (C,F,G) => A,B,D,E,C,F,G
+ 
+ * Inorder : (D,B,E) , A , (F,C,G ) => D,B,E,A,F,C,G
+
+ * Postorder : (D,E,B) , (F,G,C ) , A => D,E,B,F,G,C,A
+
+            

@@ -1,0 +1,31 @@
+#include <string>
+#include <iostream>
+using namespace std;
+
+void print(string::size_type n, string const &s)
+{
+    if (n == string::npos) {
+        cout << "not found\n";
+    } else {
+        std::cout << "found: \"" << s.substr(n) << "\" at " << n << '\n';
+    }
+}
+ 
+int main()
+{
+    string::size_type n;
+    string const s = "This is a string";
+ 
+    // search backwards from end of string
+    n = s.rfind("is");
+    print(n, s);
+    // search backwards from position 4
+    n = s.rfind("is", 4);
+    print(n, s);
+    // find a single character
+    n = s.rfind('s');
+    print(n, s);
+    // find a single character
+    n = s.rfind('q');
+    print(n, s);
+}
