@@ -1,0 +1,78 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class vehicle{
+    public :
+    double speed,weight; 
+    vehicle(double speeed,double weight) {
+        this->speed = speeed;
+        this->weight = weight;
+    }
+    virtual void Input(string name,int price,string brand){
+
+    }
+    virtual void Info(){
+
+    }
+};
+
+class plane : public vehicle{
+    private :
+       string name;
+       int price;
+       string brand;
+    public :
+       plane(double speeed,double weight)
+       : vehicle(speeed,weight){
+
+       }
+
+       void Input (string name,int price,string brand){
+           this->name = name;
+           this->price = price;
+           this->brand = brand;
+       } 
+
+       void Info (){
+            cout<<"speed: " <<speed<<" weight: "<<weight<<" ";
+            cout<<"plan: "<< name<<" "<<price<<" "<<brand<<"\n";
+       }
+
+};
+
+class car : public vehicle{
+   
+    private :
+       string name;
+       int price;
+       string brand;
+    public :
+       car(double speeed,double weight)
+       : vehicle(speeed,weight){
+
+       }
+       void Input (string name,int price,string brand){
+           this->name = name;
+           this->price = price;
+           this->brand = brand;
+       }
+       
+       void Info (){
+          cout<<"speed: " <<speed<<" weight: "<<weight<<" ";
+          cout<<"vehicle: "<<name<<" "<<price<<" "<<brand<<"\n";
+       }
+};
+
+int main (){
+    vehicle *ob;
+     
+    plane p(10.00,20.00);
+    ob = &p;
+    ob->Input("Car10",10,"Car65");
+    ob->Info();
+    
+    car c(10.00,20.00);
+    ob = &c;
+    ob->Input("Car20",20,"Car70");
+    ob->Info();
+}
