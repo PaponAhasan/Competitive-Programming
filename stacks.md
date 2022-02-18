@@ -104,10 +104,12 @@ You have a bracket sequence made up of opening '(' and closing ')' parentheses. 
 https://ideone.com/MHpQw4
 
 ### The most common uses of a stack
+```
 * To reverse a word - Put all the letters in a stack and pop them out. Because of the LIFO order of stack, you will get the letters in reverse order.
 * In compilers - Compilers use the stack to calculate the value of expressions like 2 + 4 / 5 * (7 - 9) by converting the expression to prefix or postfix form.
 * In browsers - The back button in a browser saves all the URLs you have visited previously in a stack. Each time you visit a new page, it is added on top of the stack. When you press the back button, the current URL is removed from the stack, and the previous URL is accessed.
-
+```
+```
 ### Stack in C++ STL
 
 Stack uses an encapsulated object of either vector or deque (by default) or list (sequential container class).
@@ -118,7 +120,7 @@ The functions associated with stack are:
 * top() – Returns a reference to the top most element of the stack – Time Complexity : O(1) 
 * push(g) – Adds the element ‘g’ at the top of the stack – Time Complexity : O(1) 
 * pop() – Deletes the top most element of the stack – Time Complexity : O(1) 
-
+```
 ```c++
 #include <iostream>
 #include <stack>
