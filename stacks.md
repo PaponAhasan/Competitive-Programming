@@ -142,13 +142,15 @@ int main() {
 ```
 ### Problem 01: Balanced Parentheses
 ```
-You have a bracket sequence made up of opening '(' and closing ')' parentheses. You must check if this bracket sequence is balanced.
+You have a bracket sequence made up of opening '(' and closing ')' parentheses. You must check if this bracket sequence 
+is balanced.
 ```
 Code: https://ideone.com/MHpQw4
 
 ### Problem 02: Balanced Brackets
 ```
-Given an expression string exp, write a program to examine whether the pairs and the orders of “{“, “}”, “(“, “)”, “[“, “]” are correct in exp.
+Given an expression string exp, write a program to examine whether the pairs and the orders of “{“, “}”, “(“, “)”, “[“, “]”
+are correct in exp.
 
 Example: 
 
