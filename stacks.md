@@ -1,3 +1,4 @@
+```
 Stacks are dynamic data structures. Which follows the Last In First Out (LIFO). The last item to be inserted into a stack is the first one to be deleted from it.
 
 Features of stacks
@@ -9,7 +10,7 @@ Size of stack changes with each push() and pop() operation. Each push() and pop(
 
 Elements can be inserted or deleted only from one end of the stack i.e. from the top(). The element at the top is called the top() element. The operations of inserting and 
 deleting elements are called push() and pop(). When the top element of a stack is deleted, if the stack remains non-empty.
-
+```
 ![image](https://user-images.githubusercontent.com/59710234/154685301-5f1e10e7-a86c-44f1-bae3-46e06d902d50.png)
 
 ```c++
