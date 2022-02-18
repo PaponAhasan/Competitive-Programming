@@ -109,3 +109,32 @@ https://ideone.com/MHpQw4
 * In browsers - The back button in a browser saves all the URLs you have visited previously in a stack. Each time you visit a new page, it is added on top of the stack. When you press the back button, the current URL is removed from the stack, and the previous URL is accessed.
 
 ### Stack in C++ STL
+
+Stack uses an encapsulated object of either vector or deque (by default) or list (sequential container class).
+
+The functions associated with stack are: 
+* empty() – Returns whether the stack is empty – Time Complexity : O(1) 
+* size() – Returns the size of the stack – Time Complexity : O(1) 
+* top() – Returns a reference to the top most element of the stack – Time Complexity : O(1) 
+* push(g) – Adds the element ‘g’ at the top of the stack – Time Complexity : O(1) 
+* pop() – Deletes the top most element of the stack – Time Complexity : O(1) 
+```c++
+#include <iostream>
+#include <stack>
+using namespace std;
+int main() {
+	stack<int> stack;
+	stack.push(21);
+	stack.push(22);
+	stack.push(24);
+	stack.push(25);
+	
+		stack.pop();
+	stack.pop();
+
+	while (!stack.empty()) {
+		cout << ' ' << stack.top();
+		stack.pop();
+	}
+}
+```
