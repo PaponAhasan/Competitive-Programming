@@ -1,7 +1,7 @@
 ```
 Stacks are dynamic data structures. Which follows the Last In First Out (LIFO). The last item to be inserted into a stack is the first one to be deleted from it.
 
-Features of stacks
+Features of stacks : 
 
 Dynamic data structures
 Do not have a fixed size
