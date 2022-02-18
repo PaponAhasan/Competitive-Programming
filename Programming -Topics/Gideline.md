@@ -10,17 +10,18 @@ https://leetcode.com/explore/learn/ </br>
 https://www.programiz.com/dsa/queue </br>
 https://www.javatpoint.com/divide-and-conquer-introduction </br>
 
+```
 Topic 1 - Time Complexity
-Topic 2 - C++ STL
-Topic 3 - Implementation and Greedy
-Topic 4 - Math
+Topic 2 - C++ STL 
+Topic 3 - Implementation and Greedy 
+Topic 4 - Math 
 Topic 5 - Primality and Factorization
 Topic 6 - Sieve of Eratosthenes
 
 Topic 1 - Sorting
-Topic 2 - Prefix sums.md
-Topic 3 - Binary search.md
-Topic 4 - Two pointer.md
+Topic 2 - Prefix sums
+Topic 3 - Binary search
+Topic 4 - Two pointer
 
 Topic 1 - Stacks
 Topic 2 - Queues
@@ -54,3 +55,4 @@ Puzzles
 
 
 this + CGPA + Project(Web(F&B) + Android) + English + CV + Typing
+```
