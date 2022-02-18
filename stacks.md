@@ -65,7 +65,7 @@ int size ( ){
 
 # Full Code :
 
-```
+```c++
 #include <iostream>
 using namespace std;
 int top = -1; //Globally defining the value of top as the stack is empty
