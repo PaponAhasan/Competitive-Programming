@@ -133,15 +133,15 @@ m এর সব থেকে বড় মাল্টিপল, যেটা x এ
 ![image](https://user-images.githubusercontent.com/59710234/154576603-a5603255-ecbd-4fad-92b7-6c0e21445eb8.png)
 
 ```c++
-long long M;
-long long F(long long N,long long P){
-	 if(P==0) return 1;
+   long long M;
+   long long F(long long N,long long P){
+      if(P==0) return 1;
 	 if(P%2==0){
-		  long long ret = F(N,P/2);
-	 	 return ((ret%M)*(ret%M))%M;
+	    long long ret = F(N,P/2);
+	    return ((ret%M)*(ret%M))%M;
 	 }
-	 else return ((N%M)*(F(N,P-1)%M))%M;
-}
+      else return ((N%M)*(F(N,P-1)%M))%M;
+   }
 ```
 
 ```
