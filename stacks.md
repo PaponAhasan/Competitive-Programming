@@ -22,10 +22,13 @@ There are some basic operations that allow us to perform different actions on a 
 
 ```
 ![image](https://user-images.githubusercontent.com/59710234/154685301-5f1e10e7-a86c-44f1-bae3-46e06d902d50.png)
+
+![image](https://user-images.githubusercontent.com/59710234/154731904-fb3526ef-b3cd-445b-9988-7097012fabae.png)
+
 ![image](https://user-images.githubusercontent.com/59710234/154731367-fdb9d537-5226-4140-8e33-e78254997cf9.png)
 
+### Working of Stack Data Structure
 ```
-Working of Stack Data Structure
 The operations work as follows:
 
 * A pointer called TOP is used to keep track of the top element in the stack.
