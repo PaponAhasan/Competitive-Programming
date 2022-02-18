@@ -130,10 +130,13 @@ int main() {
     stack.push(22);
     stack.push(24);
     stack.push(25);
+    stack.emplace(1);
 	
     stack.pop();
     stack.pop();
-
+    
+    cout<<stack.size()<<"\n";
+    
     while (!stack.empty()) {
 	cout << ' ' << stack.top();
 	stack.pop();
