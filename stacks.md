@@ -140,13 +140,13 @@ int main() {
     stack1.swap(stack2);
 }
 ```
-### Problem : Balanced Parentheses
+### Problem 01: Balanced Parentheses
 ```
 You have a bracket sequence made up of opening '(' and closing ')' parentheses. You must check if this bracket sequence is balanced.
 ```
-https://ideone.com/MHpQw4
+Code: https://ideone.com/MHpQw4
 
-### Problem : Balanced Brackets
+### Problem 02: Balanced Brackets
 ```
 Given an expression string exp, write a program to examine whether the pairs and the orders of “{“, “}”, “(“, “)”, “[“, “]” are correct in exp.
 
@@ -158,3 +158,4 @@ Output: Balanced
 Input: exp = “[(])” 
 Output: Not Balanced
 ```
+Code : https://ideone.com/zE4yCJ
