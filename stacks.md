@@ -93,6 +93,10 @@ int size ( ){
 
 https://ideone.com/JxulmB
 
+### Stack Time Complexity
+```
+For the array-based implementation of a stack, the push and pop operations take constant time, i.e. O(1)
+```
 ### Problem : Balanced Parentheses
 ```
 You have a bracket sequence made up of opening '(' and closing ')' parentheses. You must check if this bracket sequence is balanced.
