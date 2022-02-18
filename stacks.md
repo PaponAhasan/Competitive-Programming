@@ -25,7 +25,7 @@ void push (int stack[ ] , int x , int n) {
     }
 }
 ```
-```
+```c++
 pop( ): Removes an element from the top of a stack
 
 void pop (int stack[ ] ,int n ) {
@@ -37,14 +37,14 @@ void pop (int stack[ ] ,int n ) {
     }
 }
 ```
-```
+```c++
 topElement ( ): Access the top element of a stack
 
  int topElement ( ){
     return stack[ top ];
  }
 ``` 
-```
+```c++
  isEmpty ( ) : Check whether a stack is empty
 
 bool isEmpty ( ){
@@ -54,7 +54,7 @@ bool isEmpty ( ){
       return false;
 }
 ```
-```
+```c++
 size ( ): Determines the current size of a stack
 
 int size ( ){
