@@ -13,7 +13,7 @@ deleting elements are called push() and pop(). When the top element of a stack i
 ![image](https://user-images.githubusercontent.com/59710234/154685301-5f1e10e7-a86c-44f1-bae3-46e06d902d50.png)
 
 ```c++
-- push( x ): Insert element x at the top of a stack
+push( x ): Insert element x at the top of a stack
 
 void push (int stack[ ] , int x , int n) {
  if ( top == n-1 ) {         //If the top position is the last of position in a stack, this means that the stack is full
@@ -25,7 +25,8 @@ void push (int stack[ ] , int x , int n) {
     }
 }
 ```
-- pop( ): Removes an element from the top of a stack
+```
+pop( ): Removes an element from the top of a stack
 
 void pop (int stack[ ] ,int n ) {
    if( isEmpty ( ) ){
@@ -36,13 +37,15 @@ void pop (int stack[ ] ,int n ) {
     }
 }
 ```
-- topElement ( ): Access the top element of a stack
+```
+topElement ( ): Access the top element of a stack
 
  int topElement ( ){
     return stack[ top ];
  }
 ``` 
-- isEmpty ( ) : Check whether a stack is empty
+```
+ isEmpty ( ) : Check whether a stack is empty
 
 bool isEmpty ( ){
    if ( top == -1 )  //Stack is empty
@@ -51,7 +54,8 @@ bool isEmpty ( ){
       return false;
 }
 ```
-- size ( ): Determines the current size of a stack
+```
+size ( ): Determines the current size of a stack
 
 int size ( ){
    return top + 1;
