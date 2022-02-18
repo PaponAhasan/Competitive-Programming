@@ -24,7 +24,7 @@ void push (int stack[ ] , int x , int n) {
         stack[ top ] = x ;       //Inserting element on incremented position  
     }
 }
-
+```
 - pop( ): Removes an element from the top of a stack
 
 void pop (int stack[ ] ,int n ) {
@@ -35,13 +35,13 @@ void pop (int stack[ ] ,int n ) {
       top = top - 1 ; //Decrementing top’s position will detach last element from stack            
     }
 }
-
+```
 - topElement ( ): Access the top element of a stack
 
  int topElement ( ){
     return stack[ top ];
  }
- 
+``` 
 - isEmpty ( ) : Check whether a stack is empty
 
 bool isEmpty ( ){
@@ -50,7 +50,7 @@ bool isEmpty ( ){
    else
       return false;
 }
-
+```
 - size ( ): Determines the current size of a stack
 
 int size ( ){
