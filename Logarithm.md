@@ -2,6 +2,7 @@
 ```
 Log base 2, also known as the binary logarithm. Is the logarithm to the base 2. The binary logarithm of x is the power to which
 the number 2 must be raised to obtain the value x.
+
 For example, the binary logarithm of 1 is 0, the binary logarithm of 2 is 1 and the binary logarithm of 4 is 2. It is often used
 in computer science and information theory.
 ```
