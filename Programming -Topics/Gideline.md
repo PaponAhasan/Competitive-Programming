@@ -1,7 +1,14 @@
 https://github.com/crux-bphc/DSA-Training-2021 </br>
 https://github.com/the-hyp0cr1t3/CC/tree/master/Beginner%20Topics </br>
 https://github.com/crux-bphc/CC-Summer-Group-2021 </br>
-
+file:///F:/Windows/CUET%20CP%20Syllabus.pdf
+https://cp-algorithms.com/index.html
+https://www.topcoder.com/thrive/search?tags[]=Competitive%20Programming%20Tutorials
+https://www.hackerearth.com/practice/notes/getting-started-with-the-sport-of-programming/
+https://blog.shahjalalshohag.com/topic-list/
+https://leetcode.com/explore/learn/
+https://www.programiz.com/dsa/queue
+https://www.javatpoint.com/divide-and-conquer-introduction
 
 Topic 1 - Time Complexity
 Topic 2 - C++ STL
