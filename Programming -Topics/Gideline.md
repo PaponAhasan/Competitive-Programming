@@ -1,8 +1,7 @@
-```
-https://github.com/crux-bphc/DSA-Training-2021
-https://github.com/the-hyp0cr1t3/CC/tree/master/Beginner%20Topics
-https://github.com/crux-bphc/CC-Summer-Group-2021
-```
+https://github.com/crux-bphc/DSA-Training-2021 </br>
+https://github.com/the-hyp0cr1t3/CC/tree/master/Beginner%20Topics </br>
+https://github.com/crux-bphc/CC-Summer-Group-2021 </br>
+
 
 Topic 1 - Time Complexity
 Topic 2 - C++ STL
