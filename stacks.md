@@ -93,6 +93,7 @@ int size ( ){
 https://ideone.com/JxulmB
 
 ### Problem : Balanced Parentheses
+```
 You have a bracket sequence made up of opening '(' and closing ')' parentheses. You must check if this bracket sequence is balanced.
-
+```
 https://ideone.com/MHpQw4
