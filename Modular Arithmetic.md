@@ -40,6 +40,8 @@
 ![image](https://user-images.githubusercontent.com/59710234/154542900-1653aeee-d9d1-4843-b57f-83844c1ac1b1.png)
 
 ```
+এখানে,
+
 X%5 = c1
 Y%5 = c2
 X = 5*n1 + c1
