@@ -22,7 +22,19 @@ There are some basic operations that allow us to perform different actions on a 
 
 ```
 ![image](https://user-images.githubusercontent.com/59710234/154685301-5f1e10e7-a86c-44f1-bae3-46e06d902d50.png)
+![image](https://user-images.githubusercontent.com/59710234/154731367-fdb9d537-5226-4140-8e33-e78254997cf9.png)
 
+```
+Working of Stack Data Structure
+The operations work as follows:
+
+* A pointer called TOP is used to keep track of the top element in the stack.
+* When initializing the stack, we set its value to -1 so that we can check if the stack is empty by comparing TOP == -1.
+* On pushing an element, we increase the value of TOP and place the new element in the position pointed to by TOP.
+* On popping an element, we return the element pointed to by TOP and reduce its value.
+* Before pushing, we check if the stack is already full
+* Before popping, we check if the stack is already empty
+```
 ```c++
 push( x ): Insert element x at the top of a stack
 
@@ -72,7 +84,6 @@ int size ( ){
    return top + 1;
 }
 ```
-![image](https://user-images.githubusercontent.com/59710234/154731367-fdb9d537-5226-4140-8e33-e78254997cf9.png)
 
 ### Full Code :
 
