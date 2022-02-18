@@ -1,4 +1,4 @@
-# stacks
+# Stacks
 ```
 Stacks are dynamic data structures. Which follows the Last In First Out (LIFO). The last item to be inserted into a stack is the first one to be deleted from it.
 
