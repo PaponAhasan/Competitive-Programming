@@ -68,6 +68,7 @@ int size ( ){
 ```c++
 #include <iostream>
 using namespace std;
+
 int top = -1; //Globally defining the value of top as the stack is empty
 
     void push (int stack[ ] , int x , int n)
