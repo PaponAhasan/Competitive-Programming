@@ -97,12 +97,6 @@ https://ideone.com/JxulmB
 ```
 For the array-based implementation of a stack, the push and pop operations take constant time, i.e. O(1)
 ```
-### Problem : Balanced Parentheses
-```
-You have a bracket sequence made up of opening '(' and closing ')' parentheses. You must check if this bracket sequence is balanced.
-```
-https://ideone.com/MHpQw4
-
 ### The most common uses of a stack
 ```
 * To reverse a word - Put all the letters in a stack and pop them out. Because of the LIFO order of stack, you will get the letters in reverse order.
@@ -141,5 +135,26 @@ int main() {
 	cout << ' ' << stack.top();
 	stack.pop();
     }
+    
+    stack<int> stack1,stack2;
+    stack1.swap(stack2);
 }
+```
+### Problem : Balanced Parentheses
+```
+You have a bracket sequence made up of opening '(' and closing ')' parentheses. You must check if this bracket sequence is balanced.
+```
+https://ideone.com/MHpQw4
+
+### Problem : Balanced Brackets
+```
+Given an expression string exp, write a program to examine whether the pairs and the orders of “{“, “}”, “(“, “)”, “[“, “]” are correct in exp.
+
+Example: 
+
+Input: exp = “[()]{}{[()()]()}” 
+Output: Balanced
+
+Input: exp = “[(])” 
+Output: Not Balanced
 ```
