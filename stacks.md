@@ -118,6 +118,7 @@ The functions associated with stack are:
 * top() – Returns a reference to the top most element of the stack – Time Complexity : O(1) 
 * push(g) – Adds the element ‘g’ at the top of the stack – Time Complexity : O(1) 
 * pop() – Deletes the top most element of the stack – Time Complexity : O(1) 
+
 ```c++
 #include <iostream>
 #include <stack>
