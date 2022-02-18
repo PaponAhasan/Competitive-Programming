@@ -1,12 +1,13 @@
+# stacks
 ```
 Stacks are dynamic data structures. Which follows the Last In First Out (LIFO). The last item to be inserted into a stack is the first one to be deleted from it.
 
 Features of stacks : 
 
-Dynamic data structures
-Do not have a fixed size
-Do not consume a fixed amount of memory
-Size of stack changes with each push() and pop() operation. Each push() and pop() operation increases and decreases the size of the stack by 1.
+* Dynamic data structures
+* Do not have a fixed size
+* Do not consume a fixed amount of memory
+* Size of stack changes with each push() and pop() operation. Each push() and pop() operation increases and decreases the size of the stack by 1.
 
 Elements can be inserted or deleted only from one end of the stack i.e. from the top(). The element at the top is called the top() element. The operations of inserting and 
 deleting elements are called push() and pop(). When the top element of a stack is deleted, if the stack remains non-empty.
@@ -23,10 +24,6 @@ There are some basic operations that allow us to perform different actions on a 
 ```
 ![image](https://user-images.githubusercontent.com/59710234/154685301-5f1e10e7-a86c-44f1-bae3-46e06d902d50.png)
 
-![image](https://user-images.githubusercontent.com/59710234/154731904-fb3526ef-b3cd-445b-9988-7097012fabae.png)
-
-![image](https://user-images.githubusercontent.com/59710234/154731367-fdb9d537-5226-4140-8e33-e78254997cf9.png)
-
 ### Working of Stack Data Structure
 ```
 The operations work as follows:
@@ -38,6 +35,10 @@ The operations work as follows:
 * Before pushing, we check if the stack is already full
 * Before popping, we check if the stack is already empty
 ```
+![image](https://user-images.githubusercontent.com/59710234/154731904-fb3526ef-b3cd-445b-9988-7097012fabae.png)
+
+![image](https://user-images.githubusercontent.com/59710234/154731367-fdb9d537-5226-4140-8e33-e78254997cf9.png)
+
 ```c++
 push( x ): Insert element x at the top of a stack
 
