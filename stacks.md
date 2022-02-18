@@ -72,6 +72,7 @@ int size ( ){
    return top + 1;
 }
 ```
+![image](https://user-images.githubusercontent.com/59710234/154731367-fdb9d537-5226-4140-8e33-e78254997cf9.png)
 
 ### Full Code :
 
