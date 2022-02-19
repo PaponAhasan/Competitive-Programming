@@ -1,4 +1,4 @@
-### Standard queue
+### Standard queue (Simple)
 
 ```
 Standard queue, a character is inserted at the back and deleted in the front.
@@ -114,7 +114,7 @@ The complexity of enqueue and dequeue operations in a queue using an array is O(
 * Circular queue
 * Priority Queue
 ```
-### Double-ended queue
+### Double-ended queue (Deque)
 ```
 A double-ended queue, characters can be inserted and deleted from both the front and back of the queue.
 ```
