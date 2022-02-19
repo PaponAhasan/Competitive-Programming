@@ -242,7 +242,7 @@ front = 2, rear = 0;
 ```
 Circular Queue works by the process of circular increment i.e. when we try to increment the pointer and we reach the end of the queue, we start from the beginning of the queue.
 Here, the circular increment is performed by modulo division with the queue size.
-
+```
 ```c++
 Circular Queue Operations Enqueue & Dequeue Operation same as normal queue. But full queue has a new additional case:
  if REAR + 1 == 5 (overflow!), REAR = (REAR + 1)%5 = 0 (start of queue)
