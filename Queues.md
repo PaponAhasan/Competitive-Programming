@@ -11,7 +11,7 @@ the first one to enter the bus.
 * front : Points at the index where the next deletion will be performed
 * rear : Points at the index where the next insertion will be performed
 ```
-# Queues support the following fundamental functions:
+### Queues support the following fundamental functions:
 
 ```c++
 Enqueue
