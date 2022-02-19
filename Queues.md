@@ -239,11 +239,13 @@ insert element rear: 0 -> 9 | 1-> null | 2->6 | 3->7 //insert that element at th
 front = 2, rear = 0;
 ```
 ### How Circular Queue Works
-```c++
+```
 Circular Queue works by the process of circular increment i.e. when we try to increment the pointer and we reach the end of the queue, we start from the beginning of the queue.
 Here, the circular increment is performed by modulo division with the queue size.
 
-if REAR + 1 == 5 (overflow!), REAR = (REAR + 1)%5 = 0 (start of queue)
+```c++
+Circular Queue Operations Enqueue & Dequeue Operation same as normal queue. But full queue has a new additional case:
+ if REAR + 1 == 5 (overflow!), REAR = (REAR + 1)%5 = 0 (start of queue)
 ```
 ![image](https://user-images.githubusercontent.com/59710234/154790959-07b456f6-bb04-4545-a1b9-1d5379d79df0.png)
 
