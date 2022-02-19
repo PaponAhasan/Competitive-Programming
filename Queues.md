@@ -70,7 +70,7 @@ bool isEmpty(int front, int rear) {
 ```
 ### Working of Queue
 
-![image](https://user-images.githubusercontent.com/59710234/154790373-1ff26a29-7c03-4bc0-8cd7-edb5ca584553.png)
+![image](https://user-images.githubusercontent.com/59710234/154790655-884fb4f4-78df-491b-a91d-576840fec733.png)
 
 ```
 Queue operations work as follows:
