@@ -1,6 +1,8 @@
-### standard queue
+### Standard queue
 
 ```
+Standard queue, a character is inserted at the back and deleted in the front.
+
 Queues are data structures that follow the First In First Out (FIFO) i.e. the first element that is added to the queue is the first one to be removed.
 
 Elements are always added to the back and removed from the front. Think of it as a line of people waiting for a bus. The person who is at the beginning of the line is 
@@ -11,7 +13,7 @@ the first one to enter the bus.
 * front : Points at the index where the next deletion will be performed
 * rear : Points at the index where the next insertion will be performed
 ```
-### Queues support the following fundamental functions:
+### Queues support the following fundamental functions
 
 ```c++
 Enqueue
@@ -166,3 +168,69 @@ bool isEmpty(int front, int rear) {
 ```
 ### Circular queues
 
+```
+Standard queue, when an element is deleted, the vacant space is not reutilized (খালি জায়গা পুনঃব্যবহার করা হয় না). But in a circular queue, vacant spaces are reutilized.
+```
+![image](https://user-images.githubusercontent.com/59710234/154789216-cabd2e35-480c-4e6c-9294-a4c3fb3ed43a.png)
+
+```
+when you reach the end of an array and you need to insert another element, you must insert that element at the beginning (given that the first element has been deleted and the space is vacant).
+
+front = 0, rear = 4;
+0->2 | 1->4 | 2->6 | 3->7
+
+delete front element: 0 -> null | 1->4 | 2->6 | 3->7
+front = 1, rear = 4;
+delete front element: 0 -> null | 1-> null | 2->6 | 3->7
+front = 2, rear = 4;
+
+insert element rear: 0 -> 9 | 1-> null | 2->6 | 3->7 //insert that element at the beginning
+front = 2, rear = 0;
+```
+```c++
+Enqueue
+
+void enqueue(int queue[], int element, int& rear, int arraySize, int& count) {
+    if(count == arraySize)            // Queue is full
+            printf(“OverFlow\n”);
+    else{
+        queue[rear] = element;
+        rear = (rear + 1)%arraySize;
+        count = count + 1;
+    }
+}
+```
+```c++
+Dequeue
+
+void dequeue(int queue[], int& front, int rear, int& count) {
+    if(count == 0)            // Queue is empty
+        printf(“UnderFlow\n”);
+    else {
+        queue[front] = 0;        // Delete the front element
+        front = (front + 1)%arraySize;
+        count = count - 1;
+    }
+}
+```
+```c++
+Front
+
+int Front(int queue[], int front) {
+    return queue[front];
+}
+```
+```c++
+Size
+
+int size(int count) {
+    return count;
+}
+```
+```c++
+IsEmpty
+
+bool isEmpty(int count) {
+    return (count == 0);
+}
+```
