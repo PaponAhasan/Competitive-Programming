@@ -12,6 +12,13 @@ the first one to enter the bus.
 * arraySize : Maximum number of elements that can be stored in a queue
 * front : Points at the index where the next deletion will be performed
 * rear : Points at the index where the next insertion will be performed
+
+* Enqueue: Add an element to the end of the queue
+* Dequeue: Remove an element from the front of the queue
+* IsEmpty: Check if the queue is empty
+* IsFull: Check if the queue is full
+* Peek: Get the value of the front of the queue without removing it
+
 ```
 ### Queues support the following fundamental functions
 
@@ -61,7 +68,34 @@ bool isEmpty(int front, int rear) {
     return (front == rear);
 }
 ```
-![image](https://user-images.githubusercontent.com/59710234/154786989-19971916-e0ad-404c-b26a-bd1801f57d45.png)
+### Working of Queue
+
+![image](https://user-images.githubusercontent.com/59710234/154790373-1ff26a29-7c03-4bc0-8cd7-edb5ca584553.png)
+
+```
+Queue operations work as follows:
+
+* two pointers FRONT and REAR
+* FRONT track the first element of the queue
+* REAR track the last element of the queue
+* initially, set value of FRONT and REAR to -1
+
+Enqueue Operation
+
+* check if the queue is full
+* for the first element, set the value of FRONT to 0
+* increase the REAR index by 1
+* add the new element in the position pointed to by REAR
+
+Dequeue Operation
+
+* check if the queue is empty
+* return the value pointed by FRONT
+* increase the FRONT index by 1
+* for the last element, reset the values of FRONT and REAR to -1
+
+```
+![image](https://user-images.githubusercontent.com/59710234/154790379-c15701d2-87e9-4645-b539-e1ef24b12326.png)
 
 ### Full Code
 
