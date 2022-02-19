@@ -95,7 +95,7 @@ Dequeue Operation
 * for the last element, reset the values of FRONT and REAR to -1
 
 ```
-![image](https://user-images.githubusercontent.com/59710234/154790379-c15701d2-87e9-4645-b539-e1ef24b12326.png)
+![image](https://user-images.githubusercontent.com/59710234/154790486-2435dbe8-1192-40e6-b2ac-f742c3b60755.png)
 
 ### Full Code
 
