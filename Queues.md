@@ -214,7 +214,7 @@ bool isEmpty(int front, int rear) {
 ```
 Standard queue, when an element is deleted, the vacant space is not reutilized (খালি জায়গা পুনঃব্যবহার করা হয় না). But in a circular queue, vacant spaces are reutilized.
 ```
-![image](https://user-images.githubusercontent.com/59710234/154790959-07b456f6-bb04-4545-a1b9-1d5379d79df0.png)
+![image](https://user-images.githubusercontent.com/59710234/154791296-008145d1-0185-4d24-bddb-3d3f52b69e05.png)
 
 ```
 when you reach the end of an array and you need to insert another element, you must insert that element at the beginning (given that the first element has been deleted and the space is vacant).
@@ -230,6 +230,8 @@ front = 2, rear = 4;
 insert element rear: 0 -> 9 | 1-> null | 2->6 | 3->7 //insert that element at the beginning
 front = 2, rear = 0;
 ```
+![image](https://user-images.githubusercontent.com/59710234/154790959-07b456f6-bb04-4545-a1b9-1d5379d79df0.png)
+
 ```c++
 Enqueue
 
