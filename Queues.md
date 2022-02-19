@@ -103,6 +103,12 @@ Dequeue Operation
 
 https://ideone.com/4a1x7z
 
+### Limitation
+A normal queue, after a bit of insertion and deletion, there will be non-usable empty space. This reduces the actual size of the queue. Here, indexes 0 and 1 non-usable empty space.
+The circular queue solves the major limitation of the normal queue.
+
+![image](https://user-images.githubusercontent.com/59710234/154794725-c0b26263-fd2a-4394-b043-45ce91c50cff.png)
+
 ### Complexity Analysis
 ```
 The complexity of enqueue and dequeue operations in a queue using an array is O(1). If you use pop(N) in python code, then the complexity might be O(n) depending on the position of the item to be popped.
@@ -212,7 +218,7 @@ bool isEmpty(int front, int rear) {
 ### Circular queues
 
 ```
-Standard queue, when an element is deleted, the vacant space is not reutilized (খালি জায়গা পুনঃব্যবহার করা হয় না). But in a circular queue, vacant spaces are reutilized.
+Standard queue, when an element is deleted, the vacant space is not reutilized (খালি জায়গা পুনঃব্যবহার করা হয় না). But in a circular queue, vacant spaces are reutilized.The last element is connected to the first element.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/154791296-008145d1-0185-4d24-bddb-3d3f52b69e05.png)
 
@@ -229,6 +235,9 @@ front = 2, rear = 4;
 
 insert element rear: 0 -> 9 | 1-> null | 2->6 | 3->7 //insert that element at the beginning
 front = 2, rear = 0;
+```
+```c++
+if REAR + 1 == 5 (overflow!), REAR = (REAR + 1)%5 = 0 (start of queue)
 ```
 ![image](https://user-images.githubusercontent.com/59710234/154790959-07b456f6-bb04-4545-a1b9-1d5379d79df0.png)
 
@@ -281,5 +290,6 @@ bool isEmpty(int count) {
 ```
 ### Priority Queue
 
+An ascending order priority queue gives the highest priority to the lower number in that queue. A priority queue is an abstract data-type similar to a regular queue or stack data structure in which each element additionally has a "priority" associated with it. In a priority queue, an element with high priority is served before an element with low priority.
 ![image](https://user-images.githubusercontent.com/59710234/154791249-40368350-16b2-4ddb-b584-87364c9a3bac.png)
 
