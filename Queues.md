@@ -95,7 +95,7 @@ Dequeue Operation
 * for the last element, reset the values of FRONT and REAR to -1
 
 ```
-![image](https://user-images.githubusercontent.com/59710234/154790519-c20a3ae1-ffdc-4969-ab2c-aad125044752.png)
+![image](https://user-images.githubusercontent.com/59710234/154790910-c835d3b4-af3c-4da1-b812-369818b5eb16.png)
 
 ### Full Code
 
@@ -205,7 +205,7 @@ bool isEmpty(int front, int rear) {
 ```
 Standard queue, when an element is deleted, the vacant space is not reutilized (খালি জায়গা পুনঃব্যবহার করা হয় না). But in a circular queue, vacant spaces are reutilized.
 ```
-![image](https://user-images.githubusercontent.com/59710234/154789216-cabd2e35-480c-4e6c-9294-a4c3fb3ed43a.png)
+![image](https://user-images.githubusercontent.com/59710234/154790959-07b456f6-bb04-4545-a1b9-1d5379d79df0.png)
 
 ```
 when you reach the end of an array and you need to insert another element, you must insert that element at the beginning (given that the first element has been deleted and the space is vacant).
