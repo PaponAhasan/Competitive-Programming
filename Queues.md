@@ -20,6 +20,8 @@ the first one to enter the bus.
 * Peek: Get the value of the front of the queue without removing it
 
 ```
+![image](https://user-images.githubusercontent.com/59710234/154791157-664cd4f2-cc5c-4f85-8c75-ee5291dd2e58.png)
+
 ### Queues support the following fundamental functions
 
 ```c++
@@ -101,15 +103,22 @@ Dequeue Operation
 
 https://ideone.com/4a1x7z
 
+### Complexity Analysis
+```
+The complexity of enqueue and dequeue operations in a queue using an array is O(1). If you use pop(N) in python code, then the complexity might be O(n) depending on the position of the item to be popped.
+```
 ### Queue variations
 ```
+* Simple Queue
 * Double-ended queue
 * Circular queue
+* Priority Queue
 ```
 ### Double-ended queue
 ```
 A double-ended queue, characters can be inserted and deleted from both the front and back of the queue.
 ```
+![image](https://user-images.githubusercontent.com/59710234/154791143-282676d0-f29f-4a38-8c15-9cf9e9f301f5.png)
 ```c++
 Insert at back
 
