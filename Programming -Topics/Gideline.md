@@ -12,9 +12,11 @@ Topic 2 - Prefix sums
 Topic 3 - Binary search
 Topic 4 - Two pointer
 
+Data Structures :
+
 Topic 1 - Stacks
-Topic 2 - Queues
-Topic 3 - Linked lists
+Topic 2 - Queues and Types
+Topic 3 - Linked lists and Types
 Topic 4 - Binary trees
 Topic 5 - Heaps
 Topic 6 - Binary search trees
