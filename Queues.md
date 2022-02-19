@@ -63,7 +63,7 @@ bool isEmpty(int front, int rear) {
 ```
 ![image](https://user-images.githubusercontent.com/59710234/154786989-19971916-e0ad-404c-b26a-bd1801f57d45.png)
 
-### Full Code:
+### Full Code
 
 https://ideone.com/4a1x7z
 
