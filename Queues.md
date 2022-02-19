@@ -163,3 +163,6 @@ IsEmpty
 bool isEmpty(int front, int rear) {
     return (front == rear);
 }
+```
+### Circular queues
+
