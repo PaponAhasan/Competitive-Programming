@@ -277,3 +277,7 @@ bool isEmpty(int count) {
     return (count == 0);
 }
 ```
+### Priority Queue
+
+![image](https://user-images.githubusercontent.com/59710234/154791249-40368350-16b2-4ddb-b584-87364c9a3bac.png)
+
