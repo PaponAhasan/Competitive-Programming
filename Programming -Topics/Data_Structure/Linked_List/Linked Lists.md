@@ -165,4 +165,8 @@ Similar steps should be taken if the node is being inserted at the (beginning) o
 of the list should point to the new node and the new node will point to NULL.
 ```
 
+### Array vs Linked List
+```
+Like arrays, Linked List is a linear data structure. Linked list elements are not stored at a contiguous location; the elements are linked using pointers.
+```
 https://www.geeksforgeeks.org/data-structures/linked-list/?ref=ghm
