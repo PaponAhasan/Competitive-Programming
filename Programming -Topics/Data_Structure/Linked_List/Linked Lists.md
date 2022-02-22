@@ -52,6 +52,17 @@ C
       temp->next = NULL;                               // make next point to NULL
       return temp;                                     //return the new node
   }
+  
+  OR
+  
+  struct Node* head = NULL;
+  struct Node* second = NULL;
+  struct Node* third = NULL;
+ 
+  // allocate 3 nodes in the heap
+  head = (struct Node*)malloc(sizeof(struct Node));
+  second = (struct Node*)malloc(sizeof(struct Node));
+  third = (struct Node*)malloc(sizeof(struct
  ``` 
  ```c++
  C++
