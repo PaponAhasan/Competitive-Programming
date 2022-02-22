@@ -161,14 +161,33 @@ Now, the next node at the left should point to the new node -> LeftNode.next −
 ```
 This will put the new node in the middle of the two.
 
-Similar steps should be taken if the node is being inserted at the (beginning) of the list. While inserting it at the (end), the second last node 
-of the list should point to the new node and the new node will point to NULL.
+Similar steps should be taken if the node is being inserted at the (beginning) of the list. While inserting it at the (end), the second 
+last node of the list should point to the new node and the new node will point to NULL.
 ```
 
 ### Array vs Linked List
 ```
-Like arrays, Linked List is a linear data structure. Linked list elements are not stored at a contiguous location; the elements are linked using pointers.
+Like arrays, Linked List is a linear data structure. Linked list elements are not stored at a contiguous location; the elements are linked 
+using pointers.
+
+Arrays can be used to store linear data of similar types, but arrays have the following limitations :
+1) The size of the arrays is fixed
+2) Inserting a new element in an array of elements is expensive because ,
+   the room has to be created for the new elements and to create room existing elements have to be shifted 
+   |1|2|5| if 4 insert 2 index ; |1|2|4|?| -> |1|2|4|5| ; we have to move all the elements after 2
+   but in Linked list if we have the head node then we can traverse to any node through it and insert new node at the required position.
+
+Linked List have the following limitations : 
+
+1. Random access is not allowed. We have to access elements sequentially starting from the first node(head node). So we cannot do 
+   binary search with linked lists efficiently but implementation O(n) possible
+2) Extra memory space for a pointer is required with each element of the list. 
 ```
+
+
+
+
+
 https://www.geeksforgeeks.org/data-structures/linked-list/?ref=ghm
 
 https://www.geeksforgeeks.org/linked-list-set-1-introduction/?ref=lbp
