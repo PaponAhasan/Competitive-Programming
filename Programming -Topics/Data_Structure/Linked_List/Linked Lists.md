@@ -170,3 +170,5 @@ of the list should point to the new node and the new node will point to NULL.
 Like arrays, Linked List is a linear data structure. Linked list elements are not stored at a contiguous location; the elements are linked using pointers.
 ```
 https://www.geeksforgeeks.org/data-structures/linked-list/?ref=ghm
+
+https://www.geeksforgeeks.org/linked-list-set-1-introduction/?ref=lbp
