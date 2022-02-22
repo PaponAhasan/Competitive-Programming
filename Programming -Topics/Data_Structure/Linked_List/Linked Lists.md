@@ -96,7 +96,7 @@ C
   class Node {
       public:
           int data;
-          Node * next;
+      Node * next;
   };
 
   int main() {
@@ -112,6 +112,7 @@ C
 ### Add a Node to the Linked List
 
 https://ideone.com/E1zDQQ
+https://ideone.com/zd8nKm
 
 ### Traversing the List
 
@@ -120,6 +121,15 @@ https://ideone.com/E1zDQQ
   p = head;
   while(p != NULL){
       p = p->next;
+  }
+```
+```
+  void printList(Node* n)
+  {
+      while (n != NULL) {
+          cout << n->data << " ";
+          n = n->next;
+      }
   }
 ```
 ## Insertion Operation
