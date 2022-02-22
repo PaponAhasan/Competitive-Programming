@@ -19,6 +19,12 @@ the next node.
 ```
 ### Basic Operations
 ```
+  Declaring - 
+  
+  Creating - 
+  
+  Traversing - 
+  
   Insertion − Adds an element at the beginning of the list.
 
   Deletion − Deletes an element at the beginning of the list.
@@ -28,6 +34,8 @@ the next node.
   Search − Searches an element using the given key.
 
   Delete − Deletes an element using the given key.
+  
+  Reverse Operation - Reverse an element make the last node to be pointed by the head node.
 ```
 ### Types of Linked List
 ```
@@ -112,5 +120,14 @@ C
       p = p->next;
   }
 ```
+## Insertion Operation
+
+```
+Adding a new node in linked list, First, create a node using the same structure and find the location where it has to be inserted.
+```
+![image](https://user-images.githubusercontent.com/59710234/155150453-7b830458-1f5d-40d5-a3fd-eb55336ecbf4.png)
+![image](https://user-images.githubusercontent.com/59710234/155150469-c118b7da-f20f-4f94-b1f0-41d5a90a03d7.png)
+![image](https://user-images.githubusercontent.com/59710234/155150486-3927f6ce-01e8-4555-9fe7-2b50874ac66c.png)
+![image](https://user-images.githubusercontent.com/59710234/155150512-cc31db43-b327-4831-8f44-5b817424b746.png)
 
 https://www.geeksforgeeks.org/data-structures/linked-list/?ref=ghm
