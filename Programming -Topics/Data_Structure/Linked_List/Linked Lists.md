@@ -17,6 +17,30 @@ A linked list is a way to store a collection of elements. Each element in a link
 A node is a collection of two sub-elements or parts. A data part that stores the element and a next part that stores the link to 
 the next node.
 ```
+### Basic Operations
+```
+  Insertion − Adds an element at the beginning of the list.
+
+  Deletion − Deletes an element at the beginning of the list.
+
+  Display − Displays the complete list.
+
+  Search − Searches an element using the given key.
+
+  Delete − Deletes an element using the given key.
+```
+### Types of Linked List
+```
+  Simple Linked List − Item navigation is forward only.
+
+  Doubly Linked List − Items can be navigated forward and backward.
+
+  Circular Linked List − Last item contains link of the first element as next and the first element has a link to the last 
+                         element as previous.
+  Doubly Circular linked list - 
+  
+  Header Linked List - 
+```
 ### Singly Linked List
 
 ![image](https://user-images.githubusercontent.com/59710234/155121977-ccbbfbd0-2e9f-472e-9fd2-18d24c412ddb.png)
@@ -44,17 +68,6 @@ C++
 ### Creating a Node
 ```c
 C
-  typedef struct LinkedList *node;                     //Define node as pointer of data type struct LinkedList
-
-  node createNode(){
-      node temp;                                       // declare a node
-      temp = (node)malloc(sizeof(struct LinkedList));  // allocate memory using malloc()
-      temp->next = NULL;                               // make next point to NULL
-      return temp;                                     //return the new node
-  }
-  
-  OR
-  
   int main() {
     struct Node* head = NULL;
     struct Node* second = NULL;
@@ -86,6 +99,17 @@ C
       head = new Node();
       second = new Node();
       third = new Node();
+  }
+```
+### Add a Node to the Linked List
+
+### Traversing the List
+
+```
+  node p;
+  p = head;
+  while(p != NULL){
+      p = p->next;
   }
 ```
 
