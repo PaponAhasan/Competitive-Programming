@@ -1,6 +1,6 @@
 ### What is Linked List?
 
-![image](https://user-images.githubusercontent.com/59710234/155120669-41d6effa-8cb8-413d-ba60-9ae93e724e6f.png)
+![image](https://user-images.githubusercontent.com/59710234/155120811-c06d17cc-7271-4cae-825e-d5b715a54496.png)
 
 ```
 Linked lists are one of the most fundamental data structures. It is a chain of nodes with each node having data and a pointer to
