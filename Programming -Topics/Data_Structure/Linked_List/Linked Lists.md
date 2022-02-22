@@ -40,6 +40,40 @@ C++
     int data;
     Node* next;
   };
-
 ```
+### Creating a Node
+```c
+C
+  typedef struct LinkedList *node;                     //Define node as pointer of data type struct LinkedList
+
+  node createNode(){
+      node temp;                                       // declare a node
+      temp = (node)malloc(sizeof(struct LinkedList));  // allocate memory using malloc()
+      temp->next = NULL;                               // make next point to NULL
+      return temp;                                     //return the new node
+  }
+  
+ ```c++
+ C++
+  #include <cstddef>
+
+  using namespace std;
+
+  class Node {
+      public:
+          int data;
+          Node * next;
+  };
+
+  int main() {
+      Node * head = NULL;
+      Node * second = NULL;
+      Node * third = NULL;
+
+      head = new Node();
+      second = new Node();
+      third = new Node();
+  }
+```
+
 https://www.geeksforgeeks.org/data-structures/linked-list/?ref=ghm
