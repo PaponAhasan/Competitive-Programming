@@ -147,7 +147,10 @@ Now, the next node at the left should point to the new node -> LeftNode.next −
 ![image](https://user-images.githubusercontent.com/59710234/155150512-cc31db43-b327-4831-8f44-5b817424b746.png)
 
 ```
-This will put the new node in the middle of the two. The new list should look like this −
+This will put the new node in the middle of the two.
+
+Similar steps should be taken if the node is being inserted at the (beginning) of the list. While inserting it at the (end), the second last node 
+of the list should point to the new node and the new node will point to NULL.
 ```
 
 https://www.geeksforgeeks.org/data-structures/linked-list/?ref=ghm
