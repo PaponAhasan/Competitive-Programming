@@ -125,9 +125,29 @@ C
 ```
 Adding a new node in linked list, First, create a node using the same structure and find the location where it has to be inserted.
 ```
+
 ![image](https://user-images.githubusercontent.com/59710234/155150453-7b830458-1f5d-40d5-a3fd-eb55336ecbf4.png)
+
+```
+Inserting a node B (NewNode), between A (LeftNode) and C (RightNode). 
+```
+
 ![image](https://user-images.githubusercontent.com/59710234/155150469-c118b7da-f20f-4f94-b1f0-41d5a90a03d7.png)
+
+```
+Then point B.next to C -> NewNode.next −> RightNode;
+```
+
 ![image](https://user-images.githubusercontent.com/59710234/155150486-3927f6ce-01e8-4555-9fe7-2b50874ac66c.png)
+
+```
+Now, the next node at the left should point to the new node -> LeftNode.next −> NewNode;
+```
+
 ![image](https://user-images.githubusercontent.com/59710234/155150512-cc31db43-b327-4831-8f44-5b817424b746.png)
+
+```
+This will put the new node in the middle of the two. The new list should look like this −
+```
 
 https://www.geeksforgeeks.org/data-structures/linked-list/?ref=ghm
