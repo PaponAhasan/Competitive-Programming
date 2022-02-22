@@ -179,7 +179,7 @@ Arrays can be used to store linear data of similar types, but arrays have the fo
 
 Linked List have the following limitations : 
 
-1. Random access is not allowed. We have to access elements sequentially starting from the first node(head node). So we cannot do 
+1) Random access is not allowed. We have to access elements sequentially starting from the first node(head node). So we cannot do 
    binary search with linked lists efficiently but implementation O(n) possible
 2) Extra memory space for a pointer is required with each element of the list. 
 ```
