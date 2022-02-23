@@ -165,13 +165,20 @@ C
   last node of the list should point to the new node and the new node will point to NULL.
   ```
   ```
-  A node can be added in three ways 
+  A node can be added in three ways :
+  
   1) At the front of the linked list 
   2) After a given node. 
   3) At the end of the linked list.
   ```
-  
-  Add a node at the front:
+  ```
+  Add a node at the front
+  ```
+  ![image](https://user-images.githubusercontent.com/59710234/155290089-ae00ec08-0972-4f33-addd-d8c7d9b7ea92.png)
+  ```
+  The new node is always added before the head of the given Linked List. And newly added node becomes the new head of the Linked List. For
+  example, if the given Linked List is 10->15->20->25 and we add an item 5 at the front, then the Linked List becomes 5->10->15->20->25.
+  ```
 
 ### Array vs Linked List
 ```
