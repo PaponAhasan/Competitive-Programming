@@ -163,7 +163,15 @@ C
 
   Similar steps should be taken if the node is being inserted at the (beginning) of the list. While inserting it at the (end), the second 
   last node of the list should point to the new node and the new node will point to NULL.
-```
+  ```
+  ```
+  A node can be added in three ways 
+  1) At the front of the linked list 
+  2) After a given node. 
+  3) At the end of the linked list.
+  ```
+  
+  Add a node at the front:
 
 ### Array vs Linked List
 ```
