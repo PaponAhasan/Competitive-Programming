@@ -281,9 +281,7 @@ void append(Node** head_ref, int new_data)
 }
 Time complexity of append is O(n)
  ```
-### Full Code
-
-https://ideone.com/yWdm2t
+Full Code : https://ideone.com/yWdm2t
 
 ### Array vs Linked List
 ```
