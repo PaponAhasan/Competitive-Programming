@@ -282,8 +282,29 @@ Full Code : https://ideone.com/yWdm2t
 
 
 ### Deletion Operation
+
 ```
+First, locate the target node to be removed, by using searching algorithms.
 ```
+
+![image](https://user-images.githubusercontent.com/59710234/155581947-61789bfa-7221-444d-af3a-ddd111d047d6.png)
+
+```
+The left (previous) node of the 'target node' now should point to the next node(right) of the
+target node − LeftNode.next −> TargetNode.next;
+This will remove the link that was pointing to the target node.
+```
+![image](https://user-images.githubusercontent.com/59710234/155584435-3d4758d9-dc50-4f60-b607-803e9fdd7912.png)
+
+```
+Now, we will remove what the target node is pointing at - TargetNode.next −> NULL;
+```
+![image](https://user-images.githubusercontent.com/59710234/155585073-df363537-0b64-43d6-a607-d3464c627f8b.png)
+
+```
+After deleted node
+```
+![image](https://user-images.githubusercontent.com/59710234/155585186-ae1efc62-da58-4e53-9bfd-025c2c4cd25f.png)
 
 ### Reverse Operation
 ```
