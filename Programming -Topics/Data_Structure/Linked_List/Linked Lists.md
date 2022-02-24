@@ -429,6 +429,7 @@ void deleteNode(Node** head_ref, int position)
     temp->next = next; // // 8 2 3 '1->`8
 }
 ```
+Full Code: https://ideone.com/FdPWJj
 
 ### Reverse Operation
 
