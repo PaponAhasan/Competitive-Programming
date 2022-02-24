@@ -107,10 +107,6 @@ C
       third = new Node();
   }
 ```
-Code : </br>
-  https://ideone.com/E1zDQQ </br>
-  https://ideone.com/zd8nKm </br>
-
 ### Traversing/Display the List
 
   ```c
@@ -129,6 +125,10 @@ Code : </br>
         }
     }
 ```
+Code : </br>
+  https://ideone.com/E1zDQQ </br>
+  https://ideone.com/zd8nKm </br>
+
 ### Insertion Operation
 
   ```
