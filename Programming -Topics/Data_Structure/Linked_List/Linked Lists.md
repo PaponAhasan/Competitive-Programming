@@ -47,6 +47,10 @@ the next node.
   
   Header Linked List - 
 ```
+[N.T : Before starting this tutorial, if you have less knowledge about your pointer, you can find out from the reference below :
+ https://www.geeksforgeeks.org/passing-reference-to-a-pointer-in-c/ 
+]
+
 ### Singly Linked List
 
 ![image](https://user-images.githubusercontent.com/59710234/155121977-ccbbfbd0-2e9f-472e-9fd2-18d24c412ddb.png)
