@@ -186,7 +186,7 @@ Code : </br>
   3) At the end of the linked list.
   ```
   ```
-  Add a node at the front
+  * Add a node at the front
   ```
   ![image](https://user-images.githubusercontent.com/59710234/155290089-ae00ec08-0972-4f33-addd-d8c7d9b7ea92.png)
   ```
@@ -213,7 +213,7 @@ Code : </br>
   Time complexity of push() is O(1)
   ```
   ```
-  Add a node after a given node
+  * Add a node after a given node
   ```
   ![image](https://user-images.githubusercontent.com/59710234/155528153-27571720-3dfd-4abb-b3b9-15a74d83a0d8.png)
   
@@ -249,7 +249,7 @@ void insertAfter(Node* prev_node, int new_data)
  Time complexity of insertAfter() is O(1) 
  ```
  ```
- Add a node at the end
+ * Add a node at the end
  ```
  ![image](https://user-images.githubusercontent.com/59710234/155528975-15e49d5e-037e-41f5-9bdc-ccaad30e2f88.png)
  ```
@@ -376,9 +376,80 @@ void deleteNode(Node** head_ref, int key)
 }
 ```
 Full Code : https://ideone.com/FkuTk7
+
+```
+ * Delete a Linked List node at a given position
+```
+```
+Given a singly linked list and a position, delete a linked list node at the given position.
+
+Example:  
+
+Input: position = 1, Linked List = 8->2->3->1->7
+Output: Linked List =  8->3->1->7
+```
+```c++
+void deleteNode(Node** head_ref, int position)
+{
+ 
+    // If linked list is empty
+    if (*head_ref == NULL)
+        return;
+ 
+    // Store head node
+    Node* temp = *head_ref;
+ 
+    // If head needs to be removed
+    if (position == 0) {
+ 
+        // Change head
+        *head_ref = temp->next;
+ 
+        // Free old head
+        free(temp);
+        return;
+    }
+ 
+    // Find previous node of the node to be deleted
+    for (int i = 0; temp != NULL && i < position - 1; i++)
+        temp = temp->next;       // 8 2 3 `1 7 8
+ 
+    // If position is more than number of nodes
+    if (temp == NULL || temp->next == NULL)
+        return;
+ 
+    // Node temp->next is the node to be deleted
+    // Store pointer to the next of node to be deleted
+    Node* next = temp->next->next; // 8 2 3 1 7 `8
+ 
+    // Unlink the node from linked list
+    free(temp->next); // Free memory // 8 2 3 '1 `8
+ 
+    // Unlink the deleted node from list
+    temp->next = next; // // 8 2 3 '1->`8
+}
+```
+
 ### Reverse Operation
 
 ```
+The head node of the linked list will be the last node of the linked list and the last one will be the head node.
+
+Example : 
+ Before Reverse: 9 -> 32 -> 65 -> 10 -> 85 -> NULL
+ After Reverse: 85 -> 10 -> 65 -> 32 -> 9 -> NULL
+ 
+ To reverse the given linked list we will use three extra pointers that will be in the process. The pointers will be previous, after, current.
+ We will initialize previous and after to 'NULL' and current to 'head' of the linked list.
+ 
+ After this, we will iterate until we reach the NULL of the initial - 
+ after = current ->
+ next current ->
+ next = previous
+ previous = current
+ current = after
+ 
+ There can be two ways to create the program(Reverse Operation), one is iterative and the other one is recursive.
 ```
 
 ### Array vs Linked List
