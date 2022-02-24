@@ -132,24 +132,32 @@ Code : </br>
 ### Insertion Operation
 
   ```
+  1.
+  
   Adding a new node in linked list, First, create a node using the same structure and find the location where it has to be inserted.
   ```
 
   ![image](https://user-images.githubusercontent.com/59710234/155150453-7b830458-1f5d-40d5-a3fd-eb55336ecbf4.png)
 
   ```
+  2.
+  
   Inserting a node B (NewNode), between A (LeftNode) and C (RightNode). 
   ```
 
   ![image](https://user-images.githubusercontent.com/59710234/155150469-c118b7da-f20f-4f94-b1f0-41d5a90a03d7.png)
 
   ```
+  3.
+  
   Then point B.next to C -> NewNode.next −> RightNode;
   ```
 
   ![image](https://user-images.githubusercontent.com/59710234/155150486-3927f6ce-01e8-4555-9fe7-2b50874ac66c.png)
 
   ```
+  4.
+  
   Now, the next node at the left should point to the new node -> LeftNode.next −> NewNode;
   ```
 
@@ -305,6 +313,7 @@ This will remove the link that was pointing to the target node.
 
 ```
 3.
+
 Now, we will remove what the target node is pointing at the next node(right). Now, using the following code.
 
 TargetNode.next −> NULL;
@@ -313,6 +322,7 @@ TargetNode.next −> NULL;
 
 ```
 4.
+
 After deleted node
 ```
 ![image](https://user-images.githubusercontent.com/59710234/155585186-ae1efc62-da58-4e53-9bfd-025c2c4cd25f.png)
