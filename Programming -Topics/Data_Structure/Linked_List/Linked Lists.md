@@ -23,15 +23,13 @@ the next node.
   
   Creating - 
   
-  Traversing - 
+  Traversing/Display − Displays the complete list.
   
   Insertion − Adds an element at the beginning of the list.
 
   Deletion − Deletes an element at the beginning of the list.
   
   Delete − Deletes an element using the given key.
-
-  Display − Displays the complete list.
 
   Search − Searches an element using the given key.
   
@@ -114,7 +112,7 @@ C
   https://ideone.com/E1zDQQ </br>
   https://ideone.com/zd8nKm </br>
 
-### Traversing the List
+### Traversing/Display the List
 
   ```c
     node p;
@@ -287,6 +285,15 @@ Full Code : https://ideone.com/yWdm2t
 ### Deletion Operation
 ```
 ```
+
+### Reverse Operation
+```
+```
+
+### Search Operation
+```
+```
+
 ### Array vs Linked List
 ```
   Like arrays, Linked List is a linear data structure. Linked list elements are not stored at a contiguous location; the elements are linked 
