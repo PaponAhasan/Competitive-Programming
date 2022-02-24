@@ -128,6 +128,10 @@ C
 Code : </br>
   https://ideone.com/E1zDQQ </br>
   https://ideone.com/zd8nKm </br>
+  
+### Search Operation
+```
+```  
 
 ### Insertion Operation
 
@@ -328,10 +332,6 @@ After deleted node
 ![image](https://user-images.githubusercontent.com/59710234/155585186-ae1efc62-da58-4e53-9bfd-025c2c4cd25f.png)
 
 ### Reverse Operation
-```
-```
-
-### Search Operation
 ```
 ```
 
