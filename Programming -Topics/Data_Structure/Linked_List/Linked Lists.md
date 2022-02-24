@@ -1,3 +1,7 @@
+[N.T : Before starting this tutorial, if you have less knowledge about your pointer, you can find out from the reference below :
+ https://www.geeksforgeeks.org/passing-reference-to-a-pointer-in-c/ 
+]
+
 ### What is Linked List?
 
 ![image](https://user-images.githubusercontent.com/59710234/155120811-c06d17cc-7271-4cae-825e-d5b715a54496.png)
@@ -47,9 +51,6 @@ the next node.
   
   Header Linked List - 
 ```
-[N.T : Before starting this tutorial, if you have less knowledge about your pointer, you can find out from the reference below :
- https://www.geeksforgeeks.org/passing-reference-to-a-pointer-in-c/ 
-]
 
 ### Singly Linked List
 
