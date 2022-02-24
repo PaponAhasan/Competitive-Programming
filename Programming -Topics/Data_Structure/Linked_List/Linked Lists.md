@@ -546,7 +546,8 @@ Example :
  There can be two ways to create the program(Reverse Operation), one is iterative and the other one is recursive.
 ```
 
-![image](https://user-images.githubusercontent.com/59710234/155605528-619e4d2c-795d-40e6-8026-1304be8443b7.png)
+![image](https://user-images.githubusercontent.com/59710234/155605652-b0645682-3ace-47dc-b1c4-e7688684ee75.png)
+
 
 ### Sort Linked List
 
