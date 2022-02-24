@@ -370,6 +370,7 @@ void deleteNode(Node** head_ref, int key)
     }
 }
 ```
+Full Code : https://ideone.com/FkuTk7
 ### Reverse Operation
 
 ```
