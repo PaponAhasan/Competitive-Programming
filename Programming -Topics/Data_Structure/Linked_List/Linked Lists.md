@@ -179,7 +179,27 @@ C
   The new node is always added before the head of the given Linked List. And newly added node becomes the new head of the Linked List. For
   example, if the given Linked List is 10->15->20->25 and we add an item 5 at the front, then the Linked List becomes 5->10->15->20->25.
   ```
+  ```c++
+  
+  /* Given a reference (pointer to pointer)
+to the head of a list and an int,
+inserts a new node on the front of the list. */
+void push(Node** head_ref, int new_data)
+{
+	/* 1. allocate node */
+	Node* new_node = new Node();
 
+	/* 2. put in the data */
+	new_node->data = new_data;
+
+	/* 3. Make next of new node as head */
+	new_node->next = (*head_ref);
+
+	/* 4. move the head to point to the new node */
+	(*head_ref) = new_node;
+}
+
+  ```
 ### Array vs Linked List
 ```
   Like arrays, Linked List is a linear data structure. Linked list elements are not stored at a contiguous location; the elements are linked 
