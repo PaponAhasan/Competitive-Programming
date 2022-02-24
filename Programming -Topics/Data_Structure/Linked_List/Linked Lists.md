@@ -27,7 +27,8 @@ the next node.
   
   Creating - 
   
-  Traversing/Display − Displays the complete list.
+  Traversing/Display − Access each element of the linked list / 
+                        Displays the complete list.
   
   Insertion − Adds an element at the beginning of the list.
 
@@ -38,6 +39,8 @@ the next node.
   Search − Searches an element using the given key.
   
   Reverse Operation - Reverse an element make the last node to be pointed by the head node.
+  
+  Sort - sort the nodes of the linked list
 ```
 ### Types of Linked List
 ```
@@ -136,7 +139,31 @@ Code : </br>
   
 ### Search Operation
 ```
+//Checks whether the value x is present in linked list
+public boolean search(int x)
+{
+    Node current = first;    //Initialize current
+    while (current != null)
+    {
+        if (current.data == x)
+            return true;    //data found
+        current = current.next;
+    }
+    return false;    //data not found
+}
 ```  
+```c++
+// Search a node
+bool searchNode(struct Node** head_ref, int key) {
+  struct Node* current = *head_ref;
+
+  while (current != NULL) {
+    if (current->data == key) return true;
+      current = current->next;
+  }
+  return false;
+}
+```
 
 ### Insertion Operation
 
@@ -515,6 +542,10 @@ Example :
  current = after
  
  There can be two ways to create the program(Reverse Operation), one is iterative and the other one is recursive.
+```
+### Sort Linked List
+
+```
 ```
 
 ### Array vs Linked List
