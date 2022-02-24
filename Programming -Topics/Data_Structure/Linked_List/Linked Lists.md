@@ -107,8 +107,7 @@ C
       third = new Node();
   }
 ```
-### Add a Node to the Linked List
-
+Code :
   https://ideone.com/E1zDQQ </br>
   https://ideone.com/zd8nKm </br>
 
