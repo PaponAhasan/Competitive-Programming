@@ -291,13 +291,18 @@ First, locate the target node to be removed, by using searching algorithms.
 
 ```
 The left (previous) node of the 'target node' now should point to the next node(right) of the
-target node − LeftNode.next −> TargetNode.next;
+target node. Now, using the following code. 
+
+LeftNode.next −> TargetNode.next;
+
 This will remove the link that was pointing to the target node.
 ```
 ![image](https://user-images.githubusercontent.com/59710234/155584435-3d4758d9-dc50-4f60-b607-803e9fdd7912.png)
 
 ```
-Now, we will remove what the target node is pointing at - TargetNode.next −> NULL;
+Now, we will remove what the target node is pointing at :
+
+TargetNode.next −> NULL;
 ```
 ![image](https://user-images.githubusercontent.com/59710234/155585073-df363537-0b64-43d6-a607-d3464c627f8b.png)
 
