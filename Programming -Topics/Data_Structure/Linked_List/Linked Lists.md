@@ -279,8 +279,12 @@ void append(Node** head_ref, int new_data)
 	last->next = new_node;
 	return;
 }
-
+Time complexity of append is O(n)
  ```
+### Full Code
+
+https://ideone.com/yWdm2t
+
 ### Array vs Linked List
 ```
   Like arrays, Linked List is a linear data structure. Linked list elements are not stored at a contiguous location; the elements are linked 
