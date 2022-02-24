@@ -28,12 +28,12 @@ the next node.
   Insertion − Adds an element at the beginning of the list.
 
   Deletion − Deletes an element at the beginning of the list.
+  
+  Delete − Deletes an element using the given key.
 
   Display − Displays the complete list.
 
   Search − Searches an element using the given key.
-
-  Delete − Deletes an element using the given key.
   
   Reverse Operation - Reverse an element make the last node to be pointed by the head node.
 ```
@@ -116,14 +116,14 @@ C
 
 ### Traversing the List
 
-  ```
+  ```c
     node p;
     p = head;
     while(p != NULL){
         p = p->next;
     }
   ```
-  ```
+  ```c++
     void printList(Node* n)
     {
         while (n != NULL) {
@@ -132,7 +132,7 @@ C
         }
     }
 ```
-## Insertion Operation
+### Insertion Operation
 
   ```
   Adding a new node in linked list, First, create a node using the same structure and find the location where it has to be inserted.
@@ -283,6 +283,10 @@ Time complexity of append is O(n)
  ```
 Full Code : https://ideone.com/yWdm2t
 
+
+### Deletion Operation
+```
+```
 ### Array vs Linked List
 ```
   Like arrays, Linked List is a linear data structure. Linked list elements are not stored at a contiguous location; the elements are linked 
