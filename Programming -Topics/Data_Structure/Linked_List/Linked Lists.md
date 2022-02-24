@@ -138,7 +138,9 @@ Code : </br>
   https://ideone.com/zd8nKm </br>
   
 ### Search Operation
-```
+```c
+pseudocode
+
 //Checks whether the value x is present in linked list
 public boolean search(int x)
 {
