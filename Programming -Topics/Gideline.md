@@ -7,10 +7,20 @@ Topic 4 - Math
 Topic 5 - Primality and Factorization
 Topic 6 - Sieve of Eratosthenes
 
+Greedy
+Frequency tables
 Topic 1 - Sorting
 Topic 2 - Prefix sums
-Topic 3 - Binary search
+Topic 3 - Binary search/Ternary search
 Topic 4 - Two pointer
+
+MAth :
+
+Basic math
+Primality, Factorization and Sieve
+GCD and Totient function
+Modular Arithmetic
+Binary Exponentiation
 
 Data Structures :
 
@@ -30,6 +40,15 @@ Topic 6 - Grid DP
 Topic 7 - Matrix Chain Multiplication
 Topic 8 - Edit Distance
 Topic 9 - DP on Bitmasks (Advanced)
+
+Depth First Search
+Breadth First Search
+Bellman-Ford
+Dijkstra's
+Floyd-Warshall
+Disjoint Set Union (Union Find)
+ Kruskal's MST
+ Prim's MST
 ```
 ```
 Programming
