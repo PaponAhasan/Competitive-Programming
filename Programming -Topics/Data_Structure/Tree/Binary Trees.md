@@ -50,55 +50,61 @@ External node: Node with no children
 using namespace std;
 
 struct Node {
-	int data;
-	struct Node* left;
-	struct Node* right;
+    int data;
+    struct Node* left;
+    struct Node* right;
 
-	Node(int val)
-	{
-		data = val;
+    Node(int val){
+       data = val;
     
-		left = NULL;
-		right = NULL;
-	}
+       left = NULL;
+       right = NULL;
+    }
 };
 
 int main()
 {
 
-	/*create root*/
-	struct Node* root = new Node(1);
-	/* following is the tree after above statement
+   /*create root*/
+   struct Node* root = new Node(1);
 
-			 1
-			/ \
-		NULL NULL
-	*/
+   root->left = new Node(2);
+   root->right = new Node(3);
+ 
 
-	root->left = new Node(2);
-	root->right = new Node(3);
+   root->left->left = new Node(4);
+
+   return 0;
+}
+
   
-	/* 2 and 3 become left and right children of 1
-				 1
-				/ \
-				2	 3
-			/ \	 / \
- NULL NULL NULL NULL
-	*/
+   /* following is the tree after above statement
 
-	root->left->left = new Node(4);
-  
-	/* 4 becomes left child of 2
+	    1
+	   / \
+	NULL NULL
+   */
+   
+   /* 2 and 3 become left and right children of 1
+				 
+           1
+	 /   \
+	2     3
+       / \    / \
+   NULL NULL NULL NULL
+ 
+*/
+	
+	
+/* 4 becomes left child of 2
+
          1
-        /	 \
-       2	  3
-      / \	 / \
-    4 NULL NULL NULL
-   / \
+       /   \
+      2     3
+    / \    /  \
+   4  NULL NULL NULL
+  / \
 NULL NULL
 	*/
-
-	return 0;
-}
 
 ```
