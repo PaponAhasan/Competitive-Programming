@@ -7,19 +7,21 @@ Topic 4 - Math
 Topic 5 - Primality and Factorization
 Topic 6 - Sieve of Eratosthenes
 
-Greedy
+Greedy :
+
 Frequency tables
 Topic 1 - Sorting
 Topic 2 - Prefix sums
 Topic 3 - Binary search/Ternary search
 Topic 4 - Two pointer
 
-MAth :
+Math :
 
 Basic math
 Primality, Factorization and Sieve
 GCD and Totient function
 Modular Arithmetic
+Modular Inverse
 Binary Exponentiation
 
 Data Structures :
@@ -31,6 +33,8 @@ Topic 4 - Binary trees
 Topic 5 - Heaps
 Topic 6 - Binary search trees
 
+Dynamic Programming :
+
 Topic 1 - Coin change
 Topic 2 - Maximum subarray sum
 Topic 3 - Knapsack
@@ -41,14 +45,18 @@ Topic 7 - Matrix Chain Multiplication
 Topic 8 - Edit Distance
 Topic 9 - DP on Bitmasks (Advanced)
 
+Algorithm :
+
 Depth First Search
 Breadth First Search
 Bellman-Ford
 Dijkstra's
 Floyd-Warshall
 Disjoint Set Union (Union Find)
- Kruskal's MST
- Prim's MST
+Kruskal's MST
+Prim's MST
+(MST) Minimum Spanning Trees
+
 ```
 ```
 Programming
