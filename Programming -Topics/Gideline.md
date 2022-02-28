@@ -84,10 +84,11 @@ https://github.com/crux-bphc/DSA-Training-2021 </br>
 https://github.com/the-hyp0cr1t3/CC/tree/master/Beginner%20Topics </br>
 https://github.com/crux-bphc/CC-Summer-Group-2021 </br>
 file:///F:/Windows/CUET%20CP%20Syllabus.pdf </br>
+https://www.programiz.com/dsa/queue </br>
+https://www.codechef.com/certification/data-structures-and-algorithms/prepare </br>
 https://cp-algorithms.com/index.html </br>
 https://www.topcoder.com/thrive/search?tags[]=Competitive%20Programming%20Tutorials </br>
 https://www.hackerearth.com/practice/notes/getting-started-with-the-sport-of-programming/ </br>
 https://blog.shahjalalshohag.com/topic-list/ </br>
 https://leetcode.com/explore/learn/ </br>
-https://www.programiz.com/dsa/queue </br>
 https://www.javatpoint.com/divide-and-conquer-introduction </br>
