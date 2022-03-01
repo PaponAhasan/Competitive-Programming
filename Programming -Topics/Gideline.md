@@ -118,3 +118,25 @@ https://www.javatpoint.com/divide-and-conquer-introduction </br>
 17. Linux(ubuntu)
 18. Machine Learning
 ```
+```
+Artificial Intelligence
+Mathematics
+Statistics
+Graphics
+AI Sciences
+Machine Learning
+TensorFlow
+Data Science
+NumPy
+Pandas
+SciPy
+Matplotlib
+Keras
+```
+https://www.w3schools.com/ai/default.asp </br>
+
+https://www.w3schools.com/datascience/default.asp </br>
+ 
+https://www.w3schools.com/statistics/index.php </br>
+
+https://www.w3schools.com/python/default.asp </br>
