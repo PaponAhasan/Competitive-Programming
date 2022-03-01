@@ -78,7 +78,7 @@ Puzzles
 this + CGPA + Project(Web(F&B) + Android) + English + CV + Typing
 ```
 
-### Competitive-Programming Reference:
+### Competitive-Programming Reference :
 
 https://github.com/crux-bphc/DSA-Training-2021 </br>
 https://github.com/the-hyp0cr1t3/CC/tree/master/Beginner%20Topics </br>
