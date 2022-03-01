@@ -109,7 +109,16 @@ NULL NULL
 */
 
 ```
+```
 1) The maximum number of nodes at level 'l' of a binary tree is 2^l.
+   For root, l = 0, number of nodes = 20 = 1 
+   
 2) The Maximum number of nodes in a binary tree of height 'h' is 2^h – 1. 
+   So maximum number of nodes in a binary tree of height h is 1 + 2 + 4 + .. + 2^h-1.
+   
+3) In a Binary Tree with N nodes, minimum possible height or the minimum number of levels is Log2(N+1).   
+   Log2(1) = 0; Log2(2) = 1; Log2(3) = 1.584963; Log2(4) = 2
+```
+![image](https://user-images.githubusercontent.com/59710234/156149791-6d839008-6f2a-482b-95c4-e1ef1a70e9df.png)
 
 https://www.geeksforgeeks.org/binary-tree-data-structure/
