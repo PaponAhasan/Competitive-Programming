@@ -117,8 +117,8 @@ NULL NULL
    For root, l = 0, number of nodes = 2^0 = 1 
    
 2) The Maximum number of nodes in a binary tree of height 'h' is 2^h. 
-   The Maximum number of total nodes in a binary tree of height 'h' is 2^h -1. 
-   So maximum number of nodes in a binary tree of height h is 1 + 2 + 4 + .. + 2^h+1 -1.
+   The Maximum number of total nodes in a binary tree of height 'h' is 2^(h+1) -1. 
+   So maximum number of nodes in a binary tree of height h is 1 + 2 + 4 + .. + 2^h -1.
  ```
  
  ![image](https://user-images.githubusercontent.com/59710234/156149791-6d839008-6f2a-482b-95c4-e1ef1a70e9df.png)
