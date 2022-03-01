@@ -1,4 +1,7 @@
 ### Binary/ N-ary Trees
+
+![image](https://user-images.githubusercontent.com/59710234/156151445-a827dfe2-c83b-4197-bb2d-76cca2108573.png)
+
 ```
 A Binary Tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child,
 and the topmost node in the tree is called the root.
