@@ -40,7 +40,7 @@ There can be three types of traversal : inorder, preorder and postorder
 2. Then the root node
 3. Visit all the nodes in the right subtree
 ```
-```c++
+```
 inorder(root->left)
 display(root->data)
 inorder(root->right)
@@ -51,7 +51,7 @@ inorder(root->right)
 2. Visit all the nodes in the left subtree
 3. Visit all the nodes in the right subtree
 ```
-```c++
+```
 display(root->data)
 preorder(root->left)
 preorder(root->right)
@@ -62,7 +62,7 @@ preorder(root->right)
 2. Visit all the nodes in the right subtree
 3. Visit the root node
 ```
-```c++
+```
 postorder(root->left)
 postorder(root->right)
 display(root->data)
