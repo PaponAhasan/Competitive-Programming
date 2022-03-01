@@ -131,10 +131,10 @@ NULL NULL
 ```
 
 ```
- For Full Binary Tree ;
- L = T + 1
- Where L = Number of leaf nodes
- T = Number of internal nodes with two children
+5) For Full Binary Tree the number of leaf nodes is always one more than nodes with two children.;
+   L = T + 1
+   Where L = Number of leaf nodes
+   T = Number of internal nodes with two children
 ```
 ![image](https://user-images.githubusercontent.com/59710234/156152465-ca2f82b0-1519-4781-98d8-b4fbbebaa87f.png)
 
