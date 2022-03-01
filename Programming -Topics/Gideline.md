@@ -35,6 +35,8 @@ Topic 3 - Linked lists and Types
 Topic 4 - Binary trees
 Topic 5 - Heaps
 Topic 6 - Binary search trees
+AVL Tree
+B-Tree
 4.Hash table
 5.Map, HashMap
 6.Disjoint Set, Union Find
