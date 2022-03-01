@@ -58,26 +58,30 @@ struct Node {
     int data;
     struct Node* left;
     struct Node* right;
-
-    Node(int val){
-       data = val;
-    
-       left = NULL;
-       right = NULL;
-    }
 };
+
+Node* CreateNode(int data)
+{
+    Node* newNode = new Node();
+    if (!newNode) {
+        cout << "Memory error\n";
+        return NULL;
+    }
+    newNode->data = data;
+    newNode->left = newNode->right = NULL;
+    return newNode;
+}
 
 int main()
 {
 
    /*create root*/
-   struct Node* root = new Node(1);
+   struct Node* root = new CreateNode(1);
 
-   root->left = new Node(2);
-   root->right = new Node(3);
+   root->left = new CreateNode(2);
+   root->right = new CreateNode(3);
  
-
-   root->left->left = new Node(4);
+   root->left->left = new CreateNode(4);
 
    return 0;
 }
