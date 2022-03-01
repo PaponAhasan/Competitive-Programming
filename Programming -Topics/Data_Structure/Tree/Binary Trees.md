@@ -124,7 +124,7 @@ NULL NULL
  
  ```
 3) In a Binary Tree with N nodes, minimum possible height or the minimum number of levels is Log2(N+1).   
-   Log2(1) = 0; Log2(2) = 1; Log2(3) = 1.584963; Log2(4) = 2
+   log₂1 = 0; log₂2 = 1; log₂3 = 1.584963; log₂4 = 2
 
 4) A Binary Tree with L leaves has at least log₂L levels.
    log₂8 = 3
