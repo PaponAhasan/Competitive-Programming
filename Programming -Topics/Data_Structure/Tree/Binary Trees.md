@@ -116,8 +116,8 @@ NULL NULL
 1) The maximum number of nodes at level 'l' of a binary tree is 2^l.
    For root, l = 0, number of nodes = 2^0 = 1 
    
-2) The Maximum number of nodes in a binary tree of height 'h' is 2^h. 
-   The Maximum number of total nodes in a binary tree of height 'h' is 2^(h+1) -1. 
+2) The Maximum number of nodes in a binary tree of height 'h' is 2^h. (Perfect Binary Tree)
+   The Maximum number of total nodes in a binary tree of height 'h' is 2^(h+1) -1. (Perfect Binary Tree)
  ```
  
  ![image](https://user-images.githubusercontent.com/59710234/156149791-6d839008-6f2a-482b-95c4-e1ef1a70e9df.png)
@@ -131,11 +131,80 @@ NULL NULL
 ```
 
 ```
-5) For Full Binary Tree the number of leaf nodes is always one more than nodes with two children.;
+5) For Perfect Binary Tree the number of leaf nodes is always one more than nodes with two children.;
    L = T + 1
    Where L = Number of leaf nodes
    T = Number of internal nodes with two children
 ```
 ![image](https://user-images.githubusercontent.com/59710234/156152465-ca2f82b0-1519-4781-98d8-b4fbbebaa87f.png)
 
+### Types of Binary Tree
+
+```
+Full Binary Tree : Full Binary Tree A Binary Tree is a full binary tree if 
+    1. Every node has 0 or 2 children.
+
+               18                    
+           /       \  
+         15         30  
+        /  \        /  \
+      40    50    100   40
+      
+      
+              18
+            /     \  
+          40       30  
+                   /  \
+                 100   40
+      
+      
+             18
+           /    \   
+         15     20    
+        /  \       
+      40    50   
+    /   \
+   30   50
+```
+```
+Complete Binary Tree: A Binary Tree is a Complete Binary Tree if 
+    1. All the levels are completely filled except possibly the last level and
+    2. The last level has all keys as left as possible 
+    
+              18
+           /       \  
+         15         30  
+        /  \        /  \
+      40    50    100   40
+      
+      
+              18
+           /       \  
+         15         30  
+        /  \        /  \
+      40    50    100   40
+     /  \   /
+    8   7  9 
+    
+   Complete Binary Tree is Binary Heap. 
+```
+```
+Perfect Binary Tree : A Binary tree is a Perfect Binary Tree in which 
+     1. All the internal nodes have two children and 
+     2. All leaf nodes are at the same level. 
+     
+              18
+           /       \  
+         15         30  
+        /  \        /  \
+      40    50    100   40
+      
+      
+              18
+           /       \  
+         15         30  
+
+L = I + 1 Where L = Number of leaf nodes, I = Number of internal nodes.
+A Perfect Binary Tree of height h has 2^(h+1) – 1 node. 
+```
 https://www.geeksforgeeks.org/binary-tree-data-structure/
