@@ -35,6 +35,9 @@ Topic 3 - Linked lists and Types
 Topic 4 - Binary trees
 Topic 5 - Heaps
 Topic 6 - Binary search trees
+4.Hash table
+5.Map, HashMap
+6.Disjoint Set, Union Find
 
 Dynamic Programming :
 
@@ -94,12 +97,8 @@ https://leetcode.com/explore/learn/ </br>
 https://www.javatpoint.com/divide-and-conquer-introduction </br>
 
 
-
-#Networking
-----------------
-
-#Web-Development
-----------------------
+### Web-Development
+```
 1. HTML
 2. CSS (BootStrap)
 3. JavaScript (React/ Node.js/jQuery)
@@ -118,74 +117,4 @@ https://www.javatpoint.com/divide-and-conquer-introduction </br>
 16. Android
 17. Linux(ubuntu)
 18. Machine Learning
-
-#Programming
-----------------
-1.Uva.
-2.Codeforces.
-3.AOJ.
-4.LightOj
-
-#Data Structure
------------------
-1.Linked List 
-2.Priority Queue
-3.Heap
-4.Hash table
-5.Map, HashMap
-6.Disjoint Set, Union Find
-7.Tree, Binary Tree
-8.Binary Search Tree
-
-#Algorithem
---------------
-  1.Dynamic Programming
-       -> Rod Cutting
-       -> Coin Change
-      -> Longest Common Subsequence
-       -> Matrix Chain multiplication
-       -> 0-1 Knapsack
-    
-   2.Greedy Algorithm
-        -> Activity selection
-       -> Huffman coding
-       -> Knapsack problem
-
-      3.Graph Theory
-         -> Graph Representation(matrix, list/vector)
-          -> Breadth First Search(BFS)
-          -> Depth First Search(DFS)
-           -> Topological Sort
-           -> Minimum Spanning Tree(kruskal, prim)
-            -> All pair's shortest path(Floyd Warshall)
-            -> Djkastra algorithm
-           -> Bellman Ford Algorithm
-
-       4.Number Theory
-            -> GCD
-            -> LCM
-           -> Euler Totient
-            -> Prime finding(sieve)
-            -> Prime factorization
-            -> Factorial
-            -> Fibonacci
-         -> Counting, Permutation, combination
-            -> Modular Arithmetic
-            -> Modular inverse
-            -> Probability
-            -> Euler's phi
-            -> Exponentiation
-        
-         5.String
-            -> Knuth-Marris-Pratt Algo
-
-
-#Other
---------
-1.STL
-2.Binary Search
-3.Recursion
-4.C++ language
-5.Bitwas opeator
-6.Two Pointer
-
+```
