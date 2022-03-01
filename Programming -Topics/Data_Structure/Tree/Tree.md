@@ -34,7 +34,7 @@ the tree. You might, for instance, want to add all the values in the tree or fin
 There can be three types of traversal : inorder, preorder and postorder
 ```
 
-### Inorder traversal
+### Inorder Traversal
 ```
 1. First, visit all the nodes in the left subtree
 2. Then the root node
@@ -45,7 +45,7 @@ inorder(root->left)
 display(root->data)
 inorder(root->right)
 ```
-### Preorder traversal
+### Preorder Traversal
 ```
 1. Visit root node
 2. Visit all the nodes in the left subtree
@@ -56,7 +56,7 @@ display(root->data)
 preorder(root->left)
 preorder(root->right)
 ```
-### Postorder traversal
+### Postorder Traversal
 ```
 1. Visit all the nodes in the left subtree
 2. Visit all the nodes in the right subtree
