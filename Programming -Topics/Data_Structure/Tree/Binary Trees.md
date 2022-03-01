@@ -118,10 +118,24 @@ NULL NULL
    
 2) The Maximum number of nodes in a binary tree of height 'h' is 2^h – 1. 
    So maximum number of nodes in a binary tree of height h is 1 + 2 + 4 + .. + 2^h-1.
-   
+ ```
+ 
+ ![image](https://user-images.githubusercontent.com/59710234/156149791-6d839008-6f2a-482b-95c4-e1ef1a70e9df.png)
+ 
+ ```
 3) In a Binary Tree with N nodes, minimum possible height or the minimum number of levels is Log2(N+1).   
    Log2(1) = 0; Log2(2) = 1; Log2(3) = 1.584963; Log2(4) = 2
+
+4) A Binary Tree with L leaves has at least | Log2L |+ 1   levels.
+   log2(8) = 3
 ```
-![image](https://user-images.githubusercontent.com/59710234/156149791-6d839008-6f2a-482b-95c4-e1ef1a70e9df.png)
+
+```
+ For Full Binary Tree ;
+ L = T + 1
+ Where L = Number of leaf nodes
+ T = Number of internal nodes with two children
+```
+![image](https://user-images.githubusercontent.com/59710234/156152465-ca2f82b0-1519-4781-98d8-b4fbbebaa87f.png)
 
 https://www.geeksforgeeks.org/binary-tree-data-structure/
