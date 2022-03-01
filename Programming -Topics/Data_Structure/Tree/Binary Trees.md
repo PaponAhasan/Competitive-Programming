@@ -40,6 +40,9 @@ If a tree is empty, it is represented by a null pointer.
 ```
 
 ### Trees are declared
+
+![image](https://user-images.githubusercontent.com/59710234/156163748-4a89a0ed-04fb-4edc-8e9c-f1edede8759b.png)
+
  ```c++
   struct node
   {
