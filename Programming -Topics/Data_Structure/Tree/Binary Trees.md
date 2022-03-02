@@ -218,9 +218,9 @@ A Perfect Binary Tree of height h has 2^(h+1) – 1 node.
 ### Insertion in a Binary Tree
 
 ```
-The idea is to do iterative level order traversal of the given tree using queue. If we find a node whose left child is empty, 
-we make new key as left child of the node. Else if we find a node whose right child is empty, we make the new key as right child. 
-We keep traversing the tree until we find a node whose either left or right child is empty.
+The idea is to do iterative level order traversal of the given tree using queue. If we find a node whose left child is empty, we make 
+new key as left child of the node. Else if we find a node whose right child is empty, we make the new key as right child. We keep 
+traversing the tree until we find a node whose either left or right child is empty.
 ```
 ```c++
 Node* InsertNode(Node* root, int data)
