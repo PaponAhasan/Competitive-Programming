@@ -47,6 +47,22 @@ inorder(root->right)
 
 D → B → E → A → F → C → G
 ```
+```c++
+void printInorder(struct Node* node)
+{
+	if (node == NULL)
+		return;
+ 
+	/* first recur on left child */
+	printInorder(node->left);
+ 
+	/* then print the data of node */
+	cout << node->data << " ";
+ 
+	/* now recur on right child */
+	printInorder(node->right);
+}
+```
 ![image](https://user-images.githubusercontent.com/59710234/156237770-a078b0d9-19e3-4ba2-a6f1-7240f5603481.png)
 
 ### Preorder Traversal
@@ -61,6 +77,22 @@ preorder(root->left)
 preorder(root->right)
 
 A → B → D → E → C → F → G
+```
+```c++
+void printPreorder(struct Node* node)
+{
+	if (node == NULL)
+		return;
+ 
+	/* first print data of node */
+	cout << node->data << " ";
+ 
+	/* then recur on left subtree */
+	printPreorder(node->left);
+ 
+	/* now recur on right subtree */
+	printPreorder(node->right);
+}
 ```
 ![image](https://user-images.githubusercontent.com/59710234/156237860-19c89ac8-5024-4dd1-93e6-8625c11de746.png)
 
@@ -78,5 +110,22 @@ display(root->data)
 D → E → B → F → G → C → A
 ```
 ![image](https://user-images.githubusercontent.com/59710234/156237926-cff55f20-7a7e-43f9-a301-e8f2559f7af2.png)
+
+```c++
+void printPostorder(struct Node* node)
+{
+	if (node == NULL)
+		return;
+ 
+	// first recur on left subtree
+	printPostorder(node->left);
+ 
+	// then recur on right subtree
+	printPostorder(node->right);
+ 
+	// now deal with the node
+	cout << node->data << " ";
+}
+```
 
 Tree Traversals : https://ideone.com/o0kv8u 
