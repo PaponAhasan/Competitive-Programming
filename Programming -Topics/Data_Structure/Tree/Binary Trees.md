@@ -267,7 +267,7 @@ Full Code : https://ideone.com/1wWArS
 3. Then delete the deepest rightmost node.
 ```
 
-![image](https://user-images.githubusercontent.com/59710234/156340622-16449b99-ff2a-4b27-bd4a-4b7db965f260.png)
+![deletion-in-binary-tree (1)](https://user-images.githubusercontent.com/59710234/156345230-c1a5579d-3786-4672-8b14-33e1a8beb667.jpg)
 
 ``` c++
 /* function to delete the given deepest node
