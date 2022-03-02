@@ -215,4 +215,39 @@ Perfect Binary Tree : A Binary tree is a Perfect Binary Tree in which
 L = I + 1 Where L = Number of leaf nodes, I = Number of internal nodes.
 A Perfect Binary Tree of height h has 2^(h+1) – 1 node. 
 ```
+```c++
+Node* InsertNode(Node* root, int data)
+{
+    // If the tree is empty, assign new node address to root
+    if (root == NULL) {
+        root = CreateNode(data);
+        return root;
+    }
+ 
+    // Else, do level order traversal until we find an empty
+    // place, i.e. either left child or right child of some
+    // node is pointing to NULL.
+    queue<Node*> q;
+    q.push(root);
+ 
+    while (!q.empty()) {
+        Node* temp = q.front();
+        q.pop();
+ 
+        if (temp->left != NULL)
+            q.push(temp->left);
+        else {
+            temp->left = CreateNode(data);
+            return root;
+        }
+ 
+        if (temp->right != NULL)
+            q.push(temp->right);
+        else {
+            temp->right = CreateNode(data);
+            return root;
+        }
+    }
+}
+```
 https://www.geeksforgeeks.org/binary-tree-data-structure/
