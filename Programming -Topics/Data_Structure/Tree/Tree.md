@@ -48,6 +48,9 @@ inorder(root->right)
 
 D → B → E → A → F → C → G
 ```
+
+![image](https://user-images.githubusercontent.com/59710234/156237770-a078b0d9-19e3-4ba2-a6f1-7240f5603481.png)
+
 ```c++
 void printInorder(struct Node* node)
 {
@@ -64,7 +67,6 @@ void printInorder(struct Node* node)
 	printInorder(node->right);
 }
 ```
-![image](https://user-images.githubusercontent.com/59710234/156237770-a078b0d9-19e3-4ba2-a6f1-7240f5603481.png)
 
 ### Preorder Traversal
 ```
@@ -79,6 +81,9 @@ preorder(root->right)
 
 A → B → D → E → C → F → G
 ```
+
+![image](https://user-images.githubusercontent.com/59710234/156237860-19c89ac8-5024-4dd1-93e6-8625c11de746.png)
+
 ```c++
 void printPreorder(struct Node* node)
 {
@@ -95,7 +100,6 @@ void printPreorder(struct Node* node)
 	printPreorder(node->right);
 }
 ```
-![image](https://user-images.githubusercontent.com/59710234/156237860-19c89ac8-5024-4dd1-93e6-8625c11de746.png)
 
 ### Postorder Traversal
 ```
