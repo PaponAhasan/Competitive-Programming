@@ -215,6 +215,39 @@ Perfect Binary Tree : A Binary tree is a Perfect Binary Tree in which
 L = I + 1 Where L = Number of leaf nodes, I = Number of internal nodes.
 A Perfect Binary Tree of height h has 2^(h+1) – 1 node. 
 ```
+### Level Order Binary Tree Traversal
+
+```c++
+void printLevelOrder(Node* root)
+{
+    // Base Case
+    if (root == NULL)
+        return;
+ 
+    // Create an empty queue for level order traversal
+    queue<Node*> q;
+ 
+    // Enqueue Root and initialize height
+    q.push(root);
+ 
+    while (q.empty() == false) {
+        // Print front of queue and remove it from queue
+        Node* node = q.front();
+        cout << node->data << " ";
+        q.pop();
+ 
+        /* Enqueue left child */
+        if (node->left != NULL)
+            q.push(node->left);
+ 
+        /*Enqueue right child */
+        if (node->right != NULL)
+            q.push(node->right);
+    }
+}
+```
+Full Code : https://ideone.com/HyX6l7
+
 ### Insertion in a Binary Tree
 
 ```
