@@ -1,0 +1,1 @@
+- https://www.interviewbit.com/problems/pick-from-both-sides/
